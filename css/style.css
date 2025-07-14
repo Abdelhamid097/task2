@@ -1,0 +1,410 @@
+/* >>>>>>>>>>>>>>>>>General<<<<<<<<<? */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    line-height: 1.38em;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+div img {
+    width: 100%;
+}
+
+.main-color {
+    color: white;
+}
+
+p {
+    color: #686868;
+    line-height: 1.86em;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.p-section {
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+.icon {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #9C7754;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+p.icon-para {
+    margin: 10px 0 10px 0;
+}
+
+.icon-list {
+    margin-bottom: 15px;
+}
+
+.w-30 {
+    width: 33.33%;
+}
+
+
+h4 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>> Header style <<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+#Header {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    line-height: 1.86em;
+}
+
+
+.img-logo {
+    width: 15%;
+}
+
+#Header .links {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.links ul li a {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.header-content {
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 700px;
+    width: 90%;
+}
+
+.header-content h1 {
+    font-size: 76px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    line-height: 1.2em;
+
+}
+
+.header-content p {
+    line-height: 1.86em;
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header-content span {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.header-content .header-btn {
+    margin-top: 30px;
+}
+
+.header-content .header-btn button {
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.header-content .header-btn .btn1 {
+    background-color: #8e7754;
+}
+
+.header-content .header-btn .btn2 {
+    border: 2px solid white;
+    margin-left: 12px;
+}
+
+.header-content .btn1:hover {
+    background-color: white;
+    color: #9C7754;
+}
+
+.header-content .btn2:hover {
+    background-color: white;
+    color: #9C7754;
+}
+
+/* >>>>>>>>>>first-section<<<<<<<<<<< */
+
+
+
+.first-section-heading {
+    padding-top: 40px;
+    margin-bottom: 25px;
+}
+
+.first-section-content {
+    padding-left: 40px;
+}
+
+.first-section-img {
+    padding-right: 40px;
+}
+
+
+/* >>>>>>>>>>second-section<<<<<<<<<<< */
+
+.second-section {
+    background-color: #F8F8F8;
+}
+
+.second-section-header {
+    padding-top: 40px;
+    padding-right: 40px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.second-section-header p {
+    margin-bottom: 20px;
+}
+
+.second-section-img {
+    padding-left: 40px;
+}
+
+/* >>>>>>>>>>third-section<<<<<<<<<<< */
+
+.third-section-header {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.third-section {
+    text-align: center;
+}
+
+.third-section-img {
+    margin-bottom: 30px;
+}
+
+.third-section-content h4 {
+    margin-bottom: 15px;
+}
+
+.third-section-content {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* >>>>>>>>>>fourth-section<<<<<<<<<<< */
+.fourth-section {
+    background-color: #F8F8F8;
+}
+
+.fourth-section-icons .icon {
+    background-color: #8E7754;
+}
+
+.fourth-section-content {
+    padding-right: 40px;
+}
+
+.details-para {
+    margin-bottom: 18px;
+
+}
+
+
+/* >>>>>>>>>>footer-section<<<<<<<<<<< */
+
+.footer {
+    background-color: #403D38;
+    color: white;
+    margin: 0;
+    padding-top: 90px;
+
+
+}
+
+.footer-main {
+    padding-bottom: 52px;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #969696;
+
+}
+
+.card {
+    width: 25%;
+    padding-right: 25px;
+}
+
+.list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: #969696;
+    font-family: "Alegreya", serif;
+    font-size: 16px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list ::before {
+    content: "❯";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #969696;
+}
+
+.last-card {
+    background-image: url("../images/contact-details-map.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    padding: 0px 20px;
+
+}
+
+.footer .icon {
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+a {
+    margin: 16px 0 15px 0;
+    background-color: transparent;
+    font-size: 16px;
+    color: #A9A9A9;
+}
+
+.footer-last-card {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.footer-end {
+    text-align: center;
+    background-color: #353330;
+    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-image {
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.footer-image img {
+    width: 30%;
+}
+
+.footer-end .icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-end .icon img {
+    background-color: #484540;
+    border-radius: 100%;
+}
